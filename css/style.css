@@ -1,0 +1,96 @@
+#blog{
+    border: 2px solid red;
+    box-sizing: border-box;
+ /* width: 70vw;  */
+background-color:indianred ;
+margin: 0;
+padding: 0;
+display: flex;
+/* flex-basis: fit-content; */
+ flex-wrap: wrap; 
+flex-direction:row;
+
+
+
+
+}
+.h1{
+font-size: 3rem;
+    margin: 2rem 1.5rem;
+ padding: 1rem;
+    color: aquamarine;
+   
+    
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: .75rem auto 1.5rem;
+    font-size: 2.25rem;
+    }
+p{text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    
+    
+}
+.blog{ 
+    flex: 1 1 30%;
+    /* width:10vw; */
+    text-align: center;
+    padding:.75rem  1.5rem 1.25rem;
+}
+.blog_1{
+    color:bisque;
+    background-color: rgb(21, 139, 0);
+}
+.blog_2{
+    
+    color:rgb(18, 31, 103);
+    background-color: darkcyan;
+}
+.blog_3{
+    align-content:flex-end;
+    color:rgb(177, 216, 170);
+    background-color: rgb(139, 0, 0);
+    flex-basis: 10%;
+}
+
+span{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    color: rgb(235, 8, 8);
+    background-color: aquamarine;
+    padding: 2px;
+    margin:.25rem auto;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    
+}
+.h2{
+
+    background-image: url(/image/test.jpg);
+    filter:contrast(40%);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+   
+}
+.intro_heading{
+    margin: 1rem 0 0;
+    color: rgba(255, 255, 255, 0.6) ;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 2rem 20rem;
+backdrop-filter:blur(5px);
+font-size: 2.5rem;
+border-radius: 5px;
+
+/* box-shadow: 30px 40px 5px rgba(134, 4, 227, 0.458); */
+}
+.intro_para{
+    margin: 0 0 1rem;
+    padding: 1rem;
+    color: brown;
+    background-color: rgb(139, 255, 255);
+    border: 3px dotted yellow;
+    
+}
